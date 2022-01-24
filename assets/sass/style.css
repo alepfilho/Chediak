@@ -5915,7 +5915,7 @@ body:not(.loaded) * {
   top: auto;
   background-color: #fff;
   border-radius: 50px 0 0 50px;
-  padding: 30px 20% 30px 50px;
+  padding: 30px 20px 30px 50px;
   box-shadow: 20px 0 50px #000;
 }
 @media (max-width: 500px) {
@@ -5926,7 +5926,7 @@ body:not(.loaded) * {
 .intro-slide.banner .banner-content .banner-title {
   margin-bottom: 2.4rem;
   margin-left: -2px;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.4;
 }
 @media (max-width: 500px) {
