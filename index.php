@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-	<title>Instituto Clínico Chediak | Profissionais, Estrutura e Tecnologia</title>
+	<title>Instituto Clínico Chediak | Medicina por Excelência</title>
 
-    <meta name="keywords" content="Instituto Chediak, Chediak, Clínica em MG, clinica unai">
-    <meta name="description" content="Um dos maiores institutos clínicos da região de Unaí, atendimento clínico, cirurgias e exames. Qualidade e segurança no atendimento.">
-		
+	<meta name="keywords" content="Instituto Chediak, Chediak, Clínica em MG, clinica unai">
+	<meta name="description" content="Um dos maiores institutos clínicos da região de Unaí, atendimento clínico, cirurgias e exames. Qualidade e segurança no atendimento.">
+
 	<!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-	
+
 	<!-- Plugins CSS File -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
@@ -20,8 +21,9 @@
 	<!-- Main CSS File -->
 	<link rel="stylesheet" href="assets/sass/style.css">
 	<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
-	
+
 </head>
+
 <body>
 	<!------------------------------------------------
 	loading overlay - start
@@ -36,11 +38,11 @@
 	<!------------------------------------------------
 	loading overlay - end
 	------------------------------------------------>
-    <div class="page-wrapper">
+	<div class="page-wrapper">
 		<!------------------------------------------------
 		navigation - start
 		------------------------------------------------>
-			<?php include 'includes/menu.php'; ?>
+		<?php include 'includes/menu.php'; ?>
 		<!------------------------------------------------
 		navigation - end
 		------------------------------------------------>
@@ -61,16 +63,18 @@
 					background image is added through css and can be modified in the _sections.scss file
 					the image is added to the .bg-section-2 class.
 				-->
-				<div class="banner intro-slide bg-section" style="background-image: url('assets/images/banner/banner-1.jpg');">
+				<div class="banner intro-slide bg-section">
 					<div class="container-fluid p-0 m-0">
-						<div class="row justify-content-end">
-							<div class="banner-content">
-								<h1 class="banner-title">
-									Estrutura de qualidade e tecnologia
-								</h1>
-								<p class="banner-info">
-										Conforto para os pacientes com o melhor da tecnologia na área da saúde.</p>
-								<div class="banner-actions">
+						<div class="row">
+							<div class="col-md-6">
+								<img class="img-banner" src="assets/images/banner/banner-2.jpg">
+							</div>
+							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-center">
+								<div>
+									<h1 class="banner-title">
+										Medicina por Excelência
+									</h1>
+									<p>Conforto para os pacientes com o melhor da tecnologia na área da saúde.</p>
 									<a href="quem-somos.php" class="btn">
 										<span>Conheça a Chediak</span>
 									</a>
@@ -87,17 +91,19 @@
 					background image is added through css and can be modified in the _sections.scss file
 					the image is added to the .bg-section-2 class.
 				-->
-				<div class="banner intro-slide bg-section" style="background-image: url('assets/images/banner/estrutura.jpg');">
+				<div class="banner intro-slide bg-section">
 					<div class="container-fluid p-0 m-0">
-						<div class="row justify-content-end">
-							<div class="banner-content">
-								<h1 class="banner-title">
-									Conheça nossos profissionais
-								</h1>
-								<p class="banner-info">
-									São mais de 12 especialistas preparados para te ajudar.</p>
-								<div class="banner-actions">
-									<a href="quem-somos.php" class="btn btn-secondary-color">
+						<div class="row">
+							<div class="col-md-6">
+								<img class="img-banner" src="assets/images/banner/estrutura.jpg">
+							</div>
+							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-start">
+								<div style="max-width:80%">
+									<h1 class="banner-title">
+										Conheça nossa equipe
+									</h1>
+									<p>O Instituto Clínico Chediak possui uma equipe altamente qualificada e pronta para te atender.</p>
+									<a href="medicos.php" class="btn btn-secondary-color">
 										<span>Conheça a equipe</span>
 									</a>
 								</div>
@@ -129,7 +135,8 @@
 								</div>
 								<div class="widget-hours">
 									<span>Sábado — Domingo</span>
-									<span class="time">Fechado</span></div>
+									<span class="time">Fechado</span>
+								</div>
 							</div>
 						</div>
 						<div class="col-lg-5 offset-lg-1 col-md-8 col-sm-8 offset-sm-2 col-10 offset-1">
@@ -152,151 +159,97 @@
 			<!------------------------------------------------
 			disease section - start
 			------------------------------------------------>
-			<div class="container disease-section" id="nossas-especialidades">
-				<div class="row d-flex justify-content-center">
-					<div class="col-lg-12 col-md-8 col-sm-8 col-10">
-						<h2 class="ls-n-20 text-center section-heading">Nossas especialidades</h2>
-					</div>
-				</div>
-				<div class="blog-slider row d-flex justify-content-center">
-					<div class="col-lg-4 col-md-8 col-sm-8 col-10">
-						<div class="card">
-							<div class="card-heading">
-								<figure>
-									<img src="assets/images/other/clinico.png" width="50px" alt="">
-								</figure>
-								<h4 class="card-title">Especialidades Clínicas</h4>
-							</div>
-							<div class="card-content">
-								<ul class="card-menu ls-20">
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Angiologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Cardiologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Clínica Médica</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Endocrinologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Neurologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Neurofisiologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Ortopedia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Endocrinologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Otorrinolaringologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Pneumologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Psiquiatria</a></li>
-								</ul>
-								<div class="btn-link">
-									<a href="medicos.php">Conheça os profissionais</a><i class="far fa-caret-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-8 col-sm-8 col-10">
-						<div class="card">
-							<div class="card-heading">
-								<figure>
-									<img src="assets/images/other/cirurgia.png" width="50px" alt="">
-								</figure>
-								<h4 class="card-title">Especialidades Cirúrgicas</h4>
-							</div>
-							<div class="card-content">
-								<ul class="card-menu ls-20">
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Cirurgia Plástica</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Microcirurgia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Cirurgia Vascular</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Microcirurgia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Traumatologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Microcirurgia</a></li>
-								</ul>
-								<div class="btn-link">
-									<a href="medicos.php">Conheça os profissionais</a><i class="far fa-caret-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-8 col-sm-8 col-10">
-						<div class="card">
-							<div class="card-heading">
-								<figure>
-									<img src="assets/images/other/multidisciplinar.png" width="50px" alt="">
-								</figure>
-								<h4 class="card-title">Multidisciplinar</h4>
-							</div>
-							<div class="card-content">
-								<ul class="card-menu ls-20">
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Fonoaudiologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Nutricionista</a></li>
-								</ul>
-								<div class="btn-link">
-									<a href="medicos.php">Conheça os profissionais</a><i class="far fa-caret-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+<?php include 'includes/especialidades.php'; ?>
+			<!-- NOSSOS MÉDICOS	 -->
+			<div class="banner-big bg-image image-box-slider" style="background-color: #DAE5EB">
+				<div class="container position-relative">
+					<div class="row">
+						<div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1">
+							<div class="banner-content">
+								<h2 class="banner-title">
+									Médicos Especialistas
+								</h2>
+								<p class="banner-info">
+									Com mais de 12 médicos especialistas realizando cirurgias e exames com precisão.
+								</p>
+								<div id="slide-medicos" class="owl-carousel owl-theme owl-nav-inside owl-imageover-6 owl-light mb-3" data-toggle="owl" data-owl-options='{
+                                    "margin": 30,
+                                    "dots": false,
+                                    "nav": false,
+                                    "loop": false,
+                                    "responsive": {
+                                        "576": {
+                                            "items": 1
+                                        },
+                                        "768": {
+                                            "items": 2
+                                        },
+                                        "992": {
+                                            "items": 3
+                                        },
+                                        "1200": {
+                                            "items": 4,
+                                            "nav": true
+                                        }
+                                    }
+                                }'>
+								
+								<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dr. Laerte do Nascimento Chediak</h5>
+										</div>
+									</div>
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dra. Maryna Chediak</h5>
+										</div>
+									</div>
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dr. Laerte Chediak Junior</h5>
+										</div>
+									</div>
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dra. Maryna Chediak</h5>
+										</div>
+									</div>
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">DDra. Maryna do Nascimento Chediak</h5>
+										</div>
+									</div>
 
-				<!-- EXAMES -->
-				<div class="row d-flex justify-content-center">
-					<div class="col-lg-12 col-md-8 col-sm-8 col-10">
-						<h2 class="ls-n-20 text-center section-heading">Nossos exames</h2>
-					</div>
-				</div>
-				<div class="blog-slider row d-flex justify-content-center">
-					<div class="col-lg-5 col-md-8 col-sm-8 col-10">
-						<div class="card">
-							<div class="card-heading">
-								<figure>
-									<img src="assets/images/other/exame.png" width="50px" alt="">
-								</figure>
-								<h4 class="card-title">Exames</h4>
-							</div>
-							<div class="card-content">
-								<ul class="card-menu ls-20">
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Fonoaudiologia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Audiometria tonal/vocal</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Imitânciometria</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Teste da orelhinha</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Teste da linguinha</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Terapias de voz, fala e disfagia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Vectoeletronistagmografia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Videoestroboscopia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Videolaringoscopia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link">Diagnóstico por imagem</a></li>
-								</ul>
-								<div class="btn-link">
-									<a href="contato.php">Solicitar agendamento</a><i class="far fa-caret-right"></i>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-8 col-sm-8 col-10">
-						<div class="card">
-							<div class="card-heading">
-								<figure>
-									<img src="assets/images/other/exame.png" width="50px" alt="">
-								</figure>
-								<h4 class="card-title">Exames</h4>
-							</div>
-							<div class="card-content">
-								<ul class="card-menu ls-20">
-									
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Ultrasom em geral (laudos emitidos na hora)</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Videonasofaringolaringoscopia</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Eletrocardiograma (ECG)</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Holter 24 horas</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> MAPA 24 horas</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Espirometria</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Eletroencefalograma (EEG)</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Polissonografia basal</a></li>
-									<li class="menu-item"><i class="far fa-caret-right"></i><a href="#0!" class="item-link"> Polissonografia com titulação de CPAP</a></li>
-								</ul>
-								<div class="btn-link">
-									<a href="contato.php">Solicitar agendamento</a><i class="far fa-caret-right"></i>
+								<div class="banner-actions">
+									<a href="medicos.php" class="btn btn-primary-color">
+										<span>Conhecer toda a Equipe</span>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<!-- FIM EXAMES -->
-
 			</div>
+			<!-- FIM NOSSOS MÉDICOS -->
+
+
+<?php include 'includes/exames.php'; ?>
 			<!------------------------------------------------
 			disease section - end
 			------------------------------------------------>
@@ -368,10 +321,10 @@
 							<div class="btn-link">
 								<a href="quem-somos.php">Quem somos</a><i class="far fa-caret-right"></i>
 							</div>
-						</div>	
+						</div>
 					</div>
 				</div>
-            </div>
+			</div>
 
 
 			<!------------------------------------------------
@@ -391,11 +344,11 @@
 								</div>
 								<div class="banner-actions">
 									<a href="contato.php" class="btn btn-secondary-color">
-									<span>Entre em contato</span>
-								</a>
+										<span>Entre em contato</span>
+									</a>
 									<a href="#nossas-especialidades" class="btn">
-									<span>Nossas especialidades</span>
-								</a>
+										<span>Nossas especialidades</span>
+									</a>
 								</div>
 							</div>
 						</div>

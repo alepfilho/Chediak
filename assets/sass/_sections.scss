@@ -1,3 +1,11 @@
+#slide-medicos{
+  .owl-stage{
+    display: flex;
+    .icon-box{
+      height: 100%;
+    }
+  }
+}
 .disease-section {
   padding: 132px 0 150px 0;
   .section-heading {

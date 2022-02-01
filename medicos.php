@@ -60,6 +60,47 @@
 		    ------------------------------------------------>
             <div class="container doctor-list-section">
                 <div class="row grid-container" id="doctors" data-layout="fitRows">
+                <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
+                        <div class="image-box doctor-card mt-3">
+                            <figure>
+                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-link"></i>
+                                        </div>
+                                    </div>
+                            </figure>
+                            <div class="box-content">
+                                <h4 class="box-title">Dr. Laerte Chediak Junior</h4>
+                                <p class="doctor-cat">Otorrinolaringologia</p>
+                                <p class="box-desc">
+                                    CRM-MG 17915
+                                </p>
+                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
+                        <div class="image-box doctor-card mt-3">
+                            <figure>
+                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-link"></i>
+                                        </div>
+                                    </div>
+                            </figure>
+                            <div class="box-content">
+                                <h4 class="box-title">Dr. Laerte do Nascimento Chediak</h4>
+                                <p class="doctor-cat">Atendimento em Clínica Médica e Pneumologista</p>
+                                <p class="box-desc">
+                                    CRM-MG 67776
+                                </p>
+                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-anesthesiologist">
                         <div class="image-box doctor-card mt-3">
                             <figure>
@@ -75,6 +116,46 @@
                                 <p class="doctor-cat">Endocrinologista e Metabologia</p>
                                 <p class="box-desc">
                                     CRM-MG 56401
+                                </p>
+                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
+                        <div class="image-box doctor-card mt-3">
+                            <figure>
+                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-link"></i>
+                                        </div>
+                                    </div>
+                            </figure>
+                            <div class="box-content">
+                                <h4 class="box-title">Dra. Maryna do Nascimento Chediak</h4>
+                                <p class="doctor-cat">Endocrinologia</p>
+                                <p class="box-desc">
+                                    CRM-MG 56401
+                                </p>
+                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
+                        <div class="image-box doctor-card mt-3">
+                            <figure>
+                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
+                                    <div class="hover">
+                                        <div class="circle">
+                                            <i class="fas fa-link"></i>
+                                        </div>
+                                    </div>
+                            </figure>
+                            <div class="box-content">
+                                <h4 class="box-title">Dra. Maryana Do Nascimento Chediak Coelho </h4>
+                                <p class="doctor-cat">Otorrinolaringologia</p>
+                                <p class="box-desc">
+                                    CRM-MG 84823 – RQE 48927
                                 </p>
                                 <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
                             </div>
@@ -141,89 +222,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
-                        <div class="image-box doctor-card mt-3">
-                            <figure>
-                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
-                                    <div class="hover">
-                                        <div class="circle">
-                                            <i class="fas fa-link"></i>
-                                        </div>
-                                    </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">Dr. Laerte do Nascimento Chediak</h4>
-                                <p class="doctor-cat">Atendimento em Clínica Médica e Pneumologista</p>
-                                <p class="box-desc">
-                                    CRM-MG 67776
-                                </p>
-                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
                     
-                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
-                        <div class="image-box doctor-card mt-3">
-                            <figure>
-                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
-                                    <div class="hover">
-                                        <div class="circle">
-                                            <i class="fas fa-link"></i>
-                                        </div>
-                                    </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">Dr. Laerte Chediak Junior</h4>
-                                <p class="doctor-cat">Otorrinolaringologia</p>
-                                <p class="box-desc">
-                                    CRM-MG 17915
-                                </p>
-                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>      
-
-                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
-                        <div class="image-box doctor-card mt-3">
-                            <figure>
-                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
-                                    <div class="hover">
-                                        <div class="circle">
-                                            <i class="fas fa-link"></i>
-                                        </div>
-                                    </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">Dra. Maryna do Nascimento Chediak</h4>
-                                <p class="doctor-cat">Endocrinologia</p>
-                                <p class="box-desc">
-                                    CRM-MG 56401
-                                </p>
-                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
-                        <div class="image-box doctor-card mt-3">
-                            <figure>
-                                    <img src="assets/images/other/medicos/medico-1.jpg" class="w-100" alt="Doctor" width="370" height="407">
-                                    <div class="hover">
-                                        <div class="circle">
-                                            <i class="fas fa-link"></i>
-                                        </div>
-                                    </div>
-                            </figure>
-                            <div class="box-content">
-                                <h4 class="box-title">Dra. Maryana Do Nascimento Chediak Coelho </h4>
-                                <p class="doctor-cat">Otorrinolaringologia</p>
-                                <p class="box-desc">
-                                    CRM-MG 84823 – RQE 48927
-                                </p>
-                                <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-oncologists">
                         <div class="image-box doctor-card mt-3">

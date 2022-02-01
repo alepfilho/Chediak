@@ -175,18 +175,14 @@
     padding: 2rem 5rem 4.5rem 5rem;
     figure {
         position: relative;
-        height: 170px;
-        width: 170px;
+        height: 150px;
+        width: 150px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 50%;
         background-color: #ffa59e;
-        overflow: visible;
-        img {
-            position: absolute;
-            bottom: 0;
-            right: 8%;
-        }
+        overflow: hidden;
+        margin-top: -50px;
     }
 }
 

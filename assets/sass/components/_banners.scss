@@ -1,18 +1,29 @@
 // Banner
-@media (max-width: 500px) {
-  .intro-slider {
-    height: 100vh !important;
-  }
+.intro-slider {
+  min-height: 100vh !important;
 }
+
 .intro-slide {
   max-width: 100vw;
   overflow-x: hidden;
   font-size: 1rem;
-  padding: 30.6rem 0 21.5rem 0;
   @media (max-width: 500px) {
     height: 100vh !important;
   }
   &.banner {
+    
+    .img-banner {
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      min-height: 800px;
+      @media (max-width: 500px) {
+        min-height: unset !important;
+      }
+    }
+    p{
+      font-size: 22px;
+    }
     .container-fluid {
       max-width: unset;
     }
@@ -568,7 +579,7 @@
       height: auto;
       padding-top: calc(60px + (150 - 60) * ((100vw - 200px) / (992 - 200)));
       @media (max-width: 500px) {
-        padding-top: calc(50% + (150 - 60) * ((100vw - 200px) / (992 - 200)));
+        padding-top: 90px;
       }
       .container {
         display: flex;

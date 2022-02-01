@@ -5,17 +5,7 @@
     border-color: transparent;
     border-radius: 2.5rem;
     border-width: 0;
-    figure {
-        width: 9.5rem;
-        height: 9.5rem;
-        background-color: #fff;
-        border-radius: 50%;
-        color: $secondary-color;
-        font-size: 4.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
     @include mq(xs, max) {
         figure {
             
