@@ -810,7 +810,7 @@
   @include mq(lg, max) {
     .puzzle {
       top: -20rem;
-      transform: scale(0.8);
+      transform: scale(0.5);
     }
     .widget {
       padding: 0;
@@ -828,7 +828,7 @@
     padding: 5rem;
   }
   @include mq(md, max) {
-    padding: 5rem 0;
+    padding: 9rem 0;
   }
 }
 

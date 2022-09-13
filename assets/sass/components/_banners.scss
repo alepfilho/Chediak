@@ -1,6 +1,9 @@
 // Banner
 .intro-slider {
   min-height: 100vh !important;
+  @media (max-width: 600px) {
+    padding-bottom:90px;
+  }
 }
 
 .intro-slide {
@@ -693,6 +696,14 @@
   @include mq(sm, max) {
     .container {
       padding-bottom: 55rem;
+    }
+  }
+}
+.intro-slide{
+  .custom-margin{
+    margin-top: -15%;
+    @media (max-width: 650px) {
+      margin-top: 0%;
     }
   }
 }

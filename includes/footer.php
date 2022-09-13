@@ -6,7 +6,7 @@
 				<div class="footer-top">
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="col-lg-6 col-sm-7 col-10">
-							<a href="index.html" class="logo">
+							<a href="index.php" class="logo">
 								<img src="assets/images/logo-sm.png" alt="Caremed Logo" width="185" height="48">
 							</a>
 						</div>
@@ -27,14 +27,14 @@
 							<div class="col-lg-4 col-sm-7 col-10">
 								<div class="info-box">
 									<ul class="info-list">
-										<li><a href="termos-de-uso.html" class="info-link">Termos de Uso</a></li>
+										<li><a href="termos-de-uso.php" class="info-link">Termos de Uso</a></li>
 									</ul>
 								</div>
 							</div>
 							<div class="col-lg-4 col-sm-7 col-10">
 								<div class="info-box">
 									<ul class="info-list">
-										<li><a href="politica-de-privacidade.html" class="info-link">Política de privacidade</a></li>
+										<li><a href="politica-de-privacidade.php" class="info-link">Política de privacidade</a></li>
 									</ul>
 								</div>
 							</div>
@@ -60,13 +60,13 @@
 			<nav class="mobile-nav mt-3">
 				<ul class="mobile-menu">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>							
-					<li><a href="quem-somos.html">Quem somos</a></li>   
+					<li><a href="quem-somos.php">Quem somos</a></li>   
 					<li>
-						<a href="medicos.html">Médicos</a>
+						<a href="medicos.php">Médicos</a>
 					</li>
-					<a href="contato.html" class="btn ls-0 btn-login mt-3">
+					<a href="contato.php" class="btn ls-0 btn-login mt-3">
 						<span>Contato</span>
 					</a>
 				</ul>
@@ -93,6 +93,17 @@
     
 	<!-- Main JS File -->
 	<script src="assets/js/main.min.js"></script>
+
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            function showModal(name, description) {
+                Swal.fire({
+                    width: '60vw',
+                    title: name,
+                    html: description
+                })
+            }
+        </script>
 	
 </body>
 </html>

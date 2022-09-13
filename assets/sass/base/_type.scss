@@ -12,7 +12,7 @@ h6, .h6 {
 }
 
 h1, .h1 {
-	font-size: 8rem;
+	font-size: 4rem;
 	line-height: 10rem;
 	@include mq(lg, max) {
 		font-size: calc(20px + (80 - 20) * ((100vw - 200px) / (992 - 200)));

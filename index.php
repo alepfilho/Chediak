@@ -69,8 +69,8 @@
 							<div class="col-md-6">
 								<img class="img-banner" src="assets/images/banner/banner-2.jpg">
 							</div>
-							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-center">
-								<div>
+							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-start">
+								<div class="custom-margin">
 									<h1 class="banner-title">
 										Medicina por Excelência
 									</h1>
@@ -98,7 +98,7 @@
 								<img class="img-banner" src="assets/images/banner/estrutura.jpg">
 							</div>
 							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-start">
-								<div style="max-width:80%">
+								<div class="custom-margin">
 									<h1 class="banner-title">
 										Conheça nossa equipe
 									</h1>
@@ -196,7 +196,7 @@
 								
 								<div class="icon-box covid-symptom text-center">
 										<figure>
-											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+											<img src="assets/images/medicos/dr-laerte-nascimento-chediak.jpg" class="img-fluid">
 										</figure>
 										<div class="icon-box-content">
 											<h5 class="box-title">Dr. Laerte do Nascimento Chediak</h5>
@@ -204,7 +204,7 @@
 									</div>
 									<div class="icon-box covid-symptom text-center">
 										<figure>
-											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+											<img src="assets/images/medicos/dra-maryna-chediak.jpg" class="img-fluid">
 										</figure>
 										<div class="icon-box-content">
 											<h5 class="box-title">Dra. Maryna Chediak</h5>
@@ -212,7 +212,7 @@
 									</div>
 									<div class="icon-box covid-symptom text-center">
 										<figure>
-											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+											<img src="assets/images/medicos/dr-laerte-chediak.jpg" class="img-fluid">
 										</figure>
 										<div class="icon-box-content">
 											<h5 class="box-title">Dr. Laerte Chediak Junior</h5>
@@ -220,23 +220,15 @@
 									</div>
 									<div class="icon-box covid-symptom text-center">
 										<figure>
-											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
+											<img src="assets/images/medicos/dra-maryana-chediak.jpg" class="img-fluid">
 										</figure>
 										<div class="icon-box-content">
-											<h5 class="box-title">Dra. Maryna Chediak</h5>
-										</div>
-									</div>
-									<div class="icon-box covid-symptom text-center">
-										<figure>
-											<img src="assets/images/other/medicos/medico-1.jpg" class="img-fluid">
-										</figure>
-										<div class="icon-box-content">
-											<h5 class="box-title">DDra. Maryna do Nascimento Chediak</h5>
+											<h5 class="box-title">Dra. Maryana Chediak</h5>
 										</div>
 									</div>
 
 								</div>
-								<div class="banner-actions">
+								<div class="banner-actions text-center">
 									<a href="medicos.php" class="btn btn-primary-color">
 										<span>Conhecer toda a Equipe</span>
 									</a>
