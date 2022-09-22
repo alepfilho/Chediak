@@ -16,7 +16,13 @@
 
 	li {
 		position: relative;
-		padding: 2rem 1.75rem;
+		padding: 0rem 0.75rem;
+
+		a {
+			background-color: #fff;
+			padding: 10px 25px;
+			border-radius: 50px;
+		}
 	}
 
 	.megamenu-container {
@@ -31,6 +37,7 @@
 			top: -2.5rem;
 			left: calc(100% + .2rem);
 		}
+		
 	}
 
 	.megamenu {
@@ -145,25 +152,6 @@ ul.sub-menu {
 			color: $primary-color;
 			font-weight: 700;
 			font-size: 1.6rem;
-			&::before {
-				content: '';
-				display: block;
-				position: absolute;
-				left: 0;
-				right: 0rem;
-				bottom: .3rem;
-				height: .1rem;
-				background-color: #6d95af;
-				transform-origin: right center;
-				transform: scale(0, 1);
-				transition: transform .3s ease;
-			}
-			&:hover {
-				&::before {
-					transform-origin: left center;
-    				transform: scale(1, 1);
-				}
-			}
 		}
 	}
 	

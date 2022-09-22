@@ -50,7 +50,7 @@
             <!------------------------------------------------
 		    page header - start
 		    ------------------------------------------------>
-            <div class="page-header bg-more-light">
+            <div class="page-header bg-more-light bg-header-image" style="background-image: url('assets/images/bg-time.jpg')">
                 <div class="container">
                     <h2 class="page-title">Corpo Clínico do Instituto Chediak</h2>
                 </div>
@@ -95,7 +95,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dr. Laerte do Nascimento Chediak</h4>
-                                <p class="doctor-cat">Atendimento em Clínica Médica e Pneumologista</p>
+                                <p class="doctor-cat">Atendimento em Clínica Médica e Pneumologia</p>
                                 <p class="box-desc">
                                     CRM-MG 67776
                                 </p>
@@ -116,7 +116,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dra. Maryna do Nascimento Chediak</h4>
-                                <p class="doctor-cat">Endocrinologista e Metabologia</p>
+                                <p class="doctor-cat">Endocrinologia e Metabologia</p>
                                 <p class="box-desc">
                                     CRM-MG 56401
                                 </p>
@@ -136,7 +136,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dra. Maryana Do Nascimento Chediak Coelho </h4>
-                                <p class="doctor-cat">Otorrinolaringologista</p>
+                                <p class="doctor-cat">Otorrinolaringologia</p>
                                 <p class="box-desc">
                                     CRM-MG 84823 – RQE 48927
                                 </p>
@@ -156,7 +156,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dr. Altino Rezende</h4>
-                                <p class="doctor-cat">Cirurgião Plástico e microcirurgia</p>
+                                <p class="doctor-cat">Cirurgia Plástica e Microcirurgia</p>
                                 <p class="box-desc">
                                     CRM-GO 12.280 / CRM-MG 67776
                                 </p>
@@ -177,7 +177,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dr. Eduardo Vinícius Lemes Ferreira</h4>
-                                <p class="doctor-cat">Radiologista</p>
+                                <p class="doctor-cat">Radiologia</p>
                                 <p class="box-desc">
                                     CRM-MG 82950 RQE 47840
                                 </p>
@@ -197,7 +197,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dr. Rodrigo Volpon</h4>
-                                <p class="doctor-cat">Ortopedista e Traumatologista</p>
+                                <p class="doctor-cat">Ortopedia e Traumatologia</p>
                                 <p class="box-desc">
                                     CRM-MG 65964
                                 </p>
@@ -261,7 +261,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dra. Victória Victor</h4>
-                                <p class="doctor-cat">Cirurgiã Vascular</p>
+                                <p class="doctor-cat">Cirurgia Vascular</p>
                                 <p class="box-desc">
                                     CRM-MG 64839 RQE 53367
                                 </p>
@@ -291,10 +291,12 @@
                         </div>
                     </div>
 
+                    
+
                     <div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1 pf-podiatrists">
                         <div class="image-box doctor-card mt-3">
                             <figure>
-                                <img src="assets/images/medicos/no-pick.jpg" class="w-100" alt="Doctor" width="370" height="407">
+                                <img src="assets/images/medicos/dra-lais-amorim.jpg" class="w-100" alt="Doctor" width="370" height="407">
                                 <div class="hover">
                                     <div class="circle">
                                         <i class="fas fa-link"></i>
@@ -302,10 +304,10 @@
                                 </div>
                             </figure>
                             <div class="box-content">
-                                <h4 class="box-title">Dra. Káthia Vasconcelos Silva</h4>
-                                <p class="doctor-cat">Fonoaudiologia</p>
+                                <h4 class="box-title">Dra. Lais Amorim </h4>
+                                <p class="doctor-cat">Ginecologia e obstetrícia</p>
                                 <p class="box-desc">
-                                    CRFª 6938-8
+                                    CRM-MG: 71520 RQE 48789
                                 </p>
                                 <a href="javascript:;" class="btn-toggle"><i class="fas fa-plus-circle"></i></a>
                             </div>
@@ -324,7 +326,7 @@
                             </figure>
                             <div class="box-content">
                                 <h4 class="box-title">Dra. Natália Rodrigues De Souza </h4>
-                                <p class="doctor-cat">Psicologa</p>
+                                <p class="doctor-cat">Psicóloga</p>
                                 <p class="box-desc">
                                     CRP-04/59948
                                 </p>

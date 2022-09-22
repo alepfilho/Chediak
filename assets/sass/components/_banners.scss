@@ -1,6 +1,14 @@
 // Banner
 .intro-slider {
   min-height: 100vh !important;
+  background-color: $primary-color;
+  padding-top: 5%;
+  .banner-title{
+    color: #fff
+  }
+  p{
+    color: #fff;
+  }
   @media (max-width: 600px) {
     padding-bottom:90px;
   }
@@ -11,7 +19,7 @@
   overflow-x: hidden;
   font-size: 1rem;
   @media (max-width: 500px) {
-    height: 100vh !important;
+    margin-bottom: 5%;
   }
   &.banner {
     

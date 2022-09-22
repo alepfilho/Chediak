@@ -1,6 +1,9 @@
 // Image box
 
 .image-box {
+    height: 97%;
+    display: flex;
+    flex-direction: column;
     figure {
         img {
             height: auto;
@@ -153,6 +156,7 @@
         position: relative;
         padding: 4.2rem 4rem;
         z-index: 3;
+        flex-grow: 1;
         .box-title {
             margin-bottom: 0;
             line-height: 3rem;

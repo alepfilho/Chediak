@@ -1,5 +1,9 @@
 // Page header
-
+.bg-header-image{
+	background-image: url('../images/bg-clinica.jpg');
+    background-size: cover;
+    background-position: right bottom;
+}
 .page-header {
     display: flex;
 	align-items: center;

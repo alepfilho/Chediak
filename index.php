@@ -66,8 +66,8 @@
 				<div class="banner intro-slide bg-section">
 					<div class="container-fluid p-0 m-0">
 						<div class="row">
-							<div class="col-md-6">
-								<img class="img-banner" src="assets/images/banner/banner-2.jpg">
+							<div class="col-md-5">
+								<img class="img-fluid" src="assets/images/banner/banner-iccheadiak.png">
 							</div>
 							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-start">
 								<div class="custom-margin">
@@ -76,7 +76,7 @@
 									</h1>
 									<p>Conforto para os pacientes com o melhor da tecnologia na área da saúde.</p>
 									<a href="quem-somos.php" class="btn">
-										<span>Conheça a Chediak</span>
+										<span>Conheça o ICChediak</span>
 									</a>
 									<a href="contato.php" class="btn btn-secondary-color">
 										<span>Entre em contato</span>
@@ -87,22 +87,18 @@
 					</div>
 				</div>
 
-				<!-- 
-					background image is added through css and can be modified in the _sections.scss file
-					the image is added to the .bg-section-2 class.
-				-->
 				<div class="banner intro-slide bg-section">
 					<div class="container-fluid p-0 m-0">
 						<div class="row">
-							<div class="col-md-6">
-								<img class="img-banner" src="assets/images/banner/estrutura.jpg">
+							<div class="col-md-5">
+								<img class="img-fluid" src="assets/images/banner/banner-medicos.png">
 							</div>
 							<div class="col-md-6 pl-5 pr-5 d-flex align-items-center justify-content-start">
 								<div class="custom-margin">
 									<h1 class="banner-title">
 										Conheça nossa equipe
 									</h1>
-									<p>O Instituto Clínico Chediak possui uma equipe altamente qualificada e pronta para te atender.</p>
+									<p>O Instituto Clínico CHediak possui uma equipe altamente qualificada e pronta para te atender.</p>
 									<a href="medicos.php" class="btn btn-secondary-color">
 										<span>Conheça a equipe</span>
 									</a>
@@ -111,57 +107,16 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 			<!------------------------------------------------
 			hero slider - end
 			------------------------------------------------>
-			<!------------------------------------------------
-			schedule section - start
-			------------------------------------------------>
-			<div class="bg-primary-color schedule-section">
-				<div class="container">
-					<div class="row position-relative">
-						<img src="assets/images/demos/demo-1/puzzle/puzzle-1.png" class="puzzle pr-0 pl-0" alt="Puzzle" width="160" height="217">
-						<div class="col-lg-5 offset-lg-0 col-md-8 col-sm-8 offset-sm-2 col-10 offset-1">
-							<div class="widget">
-								<h4 class="widget-title"><i class="far fa-clock"></i>Horário de funcionamento</h4>
-								<p class="widget-desc">
-									Rua Gerson R. Gondin - nº 380, Centro - Unaí/ MG
-								</p>
-								<div class="widget-hours">
-									<span>Segunda — Sexta</span>
-									<span class="time">08:00 — 18:00</span>
-								</div>
-								<div class="widget-hours">
-									<span>Sábado — Domingo</span>
-									<span class="time">Fechado</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5 offset-lg-1 col-md-8 col-sm-8 offset-sm-2 col-10 offset-1">
-							<div class="widget">
-								<h4 class="widget-title"><i class="far fa-heart-rate"></i>Exames e Cirurgias</h4>
-								<p class="widget-desc">
-									São mais de 15 exames e 6 cirurgias disponíveis.
-								</p>
-								<a href="#nossas-especialidades" class="btn btn-sm btn-secondary-color btn-secondary-color-1 ls-0">
-									<span>Conhecer</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!------------------------------------------------
-			schedule section - end
-			------------------------------------------------>
-			<!------------------------------------------------
-			disease section - start
-			------------------------------------------------>
-<?php include 'includes/especialidades.php'; ?>
+
 			<!-- NOSSOS MÉDICOS	 -->
-			<div class="banner-big bg-image image-box-slider" style="background-color: #DAE5EB">
+			<div class="banner-big bg-image image-box-slider position-relative" style="background-color: #DAE5EB">
+
+				<img src="assets/images/demos/demo-1/puzzle/puzzle-1.png" class="puzzle pr-0 pl-0" alt="Puzzle" width="160" height="217" style="transform: scale(.7);">
+
 				<div class="container position-relative">
 					<div class="row">
 						<div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1">
@@ -170,7 +125,7 @@
 									Médicos Especialistas
 								</h2>
 								<p class="banner-info">
-									Com mais de 12 médicos especialistas realizando cirurgias e exames com precisão.
+									Com mais de 12 médicos especialistas dentre clínicos e cirurgiões além da realização de exames complementares.
 								</p>
 								<div id="slide-medicos" class="owl-carousel owl-theme owl-nav-inside owl-imageover-6 owl-light mb-3" data-toggle="owl" data-owl-options='{
                                     "margin": 30,
@@ -193,23 +148,7 @@
                                         }
                                     }
                                 }'>
-								
-								<div class="icon-box covid-symptom text-center">
-										<figure>
-											<img src="assets/images/medicos/dr-laerte-nascimento-chediak.jpg" class="img-fluid">
-										</figure>
-										<div class="icon-box-content">
-											<h5 class="box-title">Dr. Laerte do Nascimento Chediak</h5>
-										</div>
-									</div>
-									<div class="icon-box covid-symptom text-center">
-										<figure>
-											<img src="assets/images/medicos/dra-maryna-chediak.jpg" class="img-fluid">
-										</figure>
-										<div class="icon-box-content">
-											<h5 class="box-title">Dra. Maryna Chediak</h5>
-										</div>
-									</div>
+
 									<div class="icon-box covid-symptom text-center">
 										<figure>
 											<img src="assets/images/medicos/dr-laerte-chediak.jpg" class="img-fluid">
@@ -218,12 +157,31 @@
 											<h5 class="box-title">Dr. Laerte Chediak Junior</h5>
 										</div>
 									</div>
+
 									<div class="icon-box covid-symptom text-center">
 										<figure>
 											<img src="assets/images/medicos/dra-maryana-chediak.jpg" class="img-fluid">
 										</figure>
 										<div class="icon-box-content">
 											<h5 class="box-title">Dra. Maryana Chediak</h5>
+										</div>
+									</div>
+
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/medicos/dra-maryna-chediak.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dra. Maryna Chediak</h5>
+										</div>
+									</div>
+
+									<div class="icon-box covid-symptom text-center">
+										<figure>
+											<img src="assets/images/medicos/dr-laerte-nascimento-chediak.jpg" class="img-fluid">
+										</figure>
+										<div class="icon-box-content">
+											<h5 class="box-title">Dr. Laerte do Nascimento Chediak</h5>
 										</div>
 									</div>
 
@@ -239,9 +197,14 @@
 				</div>
 			</div>
 			<!-- FIM NOSSOS MÉDICOS -->
+			<!------------------------------------------------
+			disease section - start
+			------------------------------------------------>
+			<?php include 'includes/especialidades.php'; ?>
 
 
-<?php include 'includes/exames.php'; ?>
+
+			<?php include 'includes/exames.php'; ?>
 			<!------------------------------------------------
 			disease section - end
 			------------------------------------------------>
@@ -317,7 +280,39 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="bg-primary-color schedule-section" style="padding-top: 100px;">
+				<div class="container">
+					<div class="row position-relative">
+						<div class="col-lg-5 offset-lg-0 col-md-8 col-sm-8 offset-sm-2 col-10 offset-1">
+							<div class="widget">
+								<h4 class="widget-title"><i class="far fa-clock"></i>Horário de funcionamento</h4>
+								<p class="widget-desc">
+									Rua Gerson R. Gondin - nº 380, Centro - Unaí/ MG
+								</p>
+								<div class="widget-hours">
+									<span>Segunda — Sexta</span>
+									<span class="time">08:00 — 18:00</span>
+								</div>
+								<div class="widget-hours">
+									<span>Sábado — Domingo</span>
+									<span class="time">Fechado</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 offset-lg-1 col-md-8 col-sm-8 offset-sm-2 col-10 offset-1">
+							<div class="widget">
+								<h4 class="widget-title"><i class="far fa-heart-rate"></i>Exames e Cirurgias</h4>
+								<p class="widget-desc">
+									São mais de 15 exames e 6 cirurgias disponíveis.
+								</p>
+								<a href="#nossas-especialidades" class="btn btn-sm btn-secondary-color btn-secondary-color-1 ls-0">
+									<span>Conhecer</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<!------------------------------------------------
 			cta section - start

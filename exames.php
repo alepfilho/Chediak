@@ -47,7 +47,7 @@
             <!------------------------------------------------
 		    page header - start
 		    ------------------------------------------------>
-            <div class="page-header bg-more-light">
+            <div class="page-header bg-more-light bg-header-image">
                 <div class="container">
                     <h2 class="page-title">Exames que o Instituto Clínico Chediak realiza</h2>
                 </div>

@@ -2955,7 +2955,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 8rem;
 }
 @media (max-width: 991px) {
@@ -3576,7 +3576,12 @@ sup {
 }
 .menu li {
   position: relative;
-  padding: 2rem 1.75rem;
+  padding: 0rem 0.75rem;
+}
+.menu li a {
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 50px;
 }
 .menu .megamenu-container {
   position: relative;
@@ -3688,23 +3693,6 @@ ul.sub-menu li.li-with-arrow i.fa-caret-right {
   color: #0B6B87;
   font-weight: 700;
   font-size: 1.6rem;
-}
-.menu > li > a::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0rem;
-  bottom: 0.3rem;
-  height: 0.1rem;
-  background-color: #6d95af;
-  transform-origin: right center;
-  transform: scale(0, 1);
-  transition: transform 0.3s ease;
-}
-.menu > li > a:hover::before {
-  transform-origin: left center;
-  transform: scale(1, 1);
 }
 .menu.sf-arrows > li > .sf-with-ul {
   position: relative;
@@ -5212,6 +5200,14 @@ body:not(.loaded) * {
 
 .intro-slider {
   min-height: 100vh !important;
+  background-color: #0B6B87;
+  padding-top: 5%;
+}
+.intro-slider .banner-title {
+  color: #fff;
+}
+.intro-slider p {
+  color: #fff;
 }
 @media (max-width: 600px) {
   .intro-slider {
@@ -5226,7 +5222,7 @@ body:not(.loaded) * {
 }
 @media (max-width: 500px) {
   .intro-slide {
-    height: 100vh !important;
+    margin-bottom: 5%;
   }
 }
 .intro-slide.banner .img-banner {
@@ -7284,15 +7280,15 @@ input[type=password] {
   margin-top: 2.5rem;
 }
 .icon-box.icon-box-simple figure {
-  width: 178px;
-  height: 178px;
+  width: 100px;
+  height: 100px;
   background-color: #ebf6fa;
   color: #0B6B87;
-  margin: 0 auto 5.5rem;
+  margin: 0;
   position: relative;
 }
 .icon-box.icon-box-simple figure i {
-  font-size: 8rem;
+  font-size: 4rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -7305,17 +7301,17 @@ input[type=password] {
 }
 @media (max-width: 767px) {
   .icon-box.icon-box-simple figure {
-    width: calc(120px + 58 * (100vw - 200px) / 792);
-    height: calc(120px + 58 * (100vw - 200px) / 792);
+    width: 50px;
+    height: 50px;
   }
   .icon-box.icon-box-simple figure i {
-    font-size: calc(50px + 30 * (100vw - 200px) / 792);
+    font-size: 27px;
   }
 }
 .icon-box.icon-box-simple .box-title {
   margin: 0 -1rem;
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 3rem;
   font-weight: 700;
   color: #0B6B87;
 }
@@ -7803,6 +7799,11 @@ input[type=password] {
     padding: 3rem 5rem;
   }
 }
+.image-box {
+  height: 97%;
+  display: flex;
+  flex-direction: column;
+}
 .image-box figure img {
   height: auto;
 }
@@ -7942,6 +7943,7 @@ input[type=password] {
   position: relative;
   padding: 4.2rem 4rem;
   z-index: 3;
+  flex-grow: 1;
 }
 .image-box.doctor-card .box-content .box-title {
   margin-bottom: 0;
@@ -8486,6 +8488,12 @@ input[type=password] {
   color: #0B6B87;
   margin-left: auto;
   margin-right: 0;
+}
+
+.bg-header-image {
+  background-image: url("../images/bg-clinica.jpg");
+  background-size: cover;
+  background-position: right bottom;
 }
 
 .page-header {
